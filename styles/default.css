@@ -4,7 +4,7 @@ html {
    font-size: 100%;
    font-family: Geneva;
    background: linear-gradient(to bottom, pink, white);
-   font-size: 12px;
+   font-size: 14px;
 }
 
  body {
@@ -58,4 +58,9 @@ h1, h2 {
 .css:hover {
   background-color: gray;
   color: white;
+}
+a:link{
+font-size: 2em;
+font-height: 2em;
+
 }
