@@ -23,7 +23,8 @@ h1, h2 {
 
 .html5{
 
-  border: solid, black;
+  border: solid;
+  border-color: black;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -41,7 +42,8 @@ h1, h2 {
 
 
 .css{
-  border: solid, black;
+  border: solid;
+  border-color: black;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
