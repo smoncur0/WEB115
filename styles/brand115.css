@@ -26,11 +26,7 @@ html {
     color: rgba(19, 126, 99, 0.849);
     
 }
-header > nav {
-   font: 1em sans-serif;
-   color: rgba(199, 22, 22, 0.63);
-   
-}
+
 p {
   font-size: 20px;
 }
