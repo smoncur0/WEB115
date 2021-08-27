@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+html {
+   font-size: 100%;
+   font-family: Helvetica;
+   background-color: rgba(159, 207, 201, 0.705);
+   font-size: 30px;
+ 
+}
+
+ body { 
+	margin: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: rgba(14, 53, 16, 0.856);
+}
+
+ h1 {
+	  text-align: center;      
+   	color: rgba(21, 90, 84, 0.664);
+	
+}
+ h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(19, 126, 99, 0.849);
+    
+}
+
+p {
+  font-size: 20px;
+}
+ footer {
+
+    color: rgba(17, 92, 73, 0.849);
+ 
+}
+
+
+
+
+
