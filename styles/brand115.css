@@ -26,12 +26,12 @@ html {
     color: rgba(19, 126, 99, 0.849);
     
 }
-header > nav > ul > li >  a {
+header > nav > ul > li > a {
    background-color: moccasin;
    color: rgba(199, 22, 22, 0.63);
 
 }
-header > nav > ul > li >  a:hover{
+header > nav > ul > li > a:hover {
    background-color: rgba(160, 81, 45, 0.411);
 }
 
