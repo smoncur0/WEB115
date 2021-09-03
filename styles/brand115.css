@@ -43,6 +43,14 @@ p.one {
 p {
   font-size: 20px;
 }
+p.input{
+   text-align: center;
+}
+p.output{
+   text-align: center;
+   
+   color: rgb(121, 18, 57);
+}
  footer {
 
     color: rgba(9, 54, 43, 0.849);
