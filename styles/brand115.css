@@ -45,10 +45,11 @@ p {
 }
 p.input{
    text-align: center;
+   background-color: rgb(230, 230, 124);
 }
 p.output{
    text-align: center;
-   
+   background-color: bisque;
    color: rgb(121, 18, 57);
 }
  footer {
