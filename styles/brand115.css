@@ -59,6 +59,37 @@ p.output{
 }
 
 
+ul.mainmenu > li > a{
+   color:  rgba(9, 9, 56, 0.568);
+   background-color: beige;
+
+}
+
+
+	
+
+ul.submenu {
+	
+	display: none;
+}
+
+ul.submenu > li > a, ul.submenu > li > a:active{
+	
+	color: beige;
+   background-color: rgba(9, 9, 56, 0.568);
+
+}
+
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+display: block;
+	
+}
+footer > p > a{
+   color:rgba(199, 22, 22, 0.63);
+   background-color: beige;
+   text-align: center;
+} 
+
 
 
 
