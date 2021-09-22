@@ -21,5 +21,6 @@
 
 #submit{
   padding: 3px;
-  background-color: rgba(10, 86, 131, 0.808);
+  background-color: rgb(4, 35, 39);
+  color: aliceblue;
 }
