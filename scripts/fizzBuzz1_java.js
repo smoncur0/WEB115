@@ -18,12 +18,12 @@ function formSubmit() {
       //creates new element & stores in variable for loop
       var fizzList;
       
-      if(i % 3 === 0) { 
+      if (i % 15 === 0) {
+          fizzList = "YumNFun";
+      } else if(i % 3 === 0) { 
         fizzList = "Fun";
       } else if ( i % 5 === 0) {
           fizzList = "Yum";
-      } else if (i % 15 === 0) {
-          fizzList = "YumFun";
       } else {
           fizzList = "Fun No Yum";
       }
