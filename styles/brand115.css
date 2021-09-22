@@ -76,9 +76,9 @@ ul.mainmenu > li > a{
 
 
 
-ul.submenu > li > a, ul.submenu > li > a:active{
+ul.submenu > li > a{
 	
-	color: beige;
+   color: beige;
    background-color: rgba(9, 9, 56, 0.568);
 
 }
