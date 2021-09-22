@@ -1,0 +1,25 @@
+
+
+#form1{
+  border: solid rgba(233, 178, 112, 0.822) 15px;
+  border-radius: 15px;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  
+}
+
+#buzz{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+
+
+}
+
+
+#submit{
+  padding: 3px;
+  background-color: rgb(233, 14, 79);
+}
