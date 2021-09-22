@@ -23,7 +23,7 @@ function formSubmit() {
       } else if ( i % 5 === 0) {
           fizzList = "Yum";
       } else if (i % 15 === 0) {
-          fizzList = "Yum N Fun";
+          fizzList = "YumFun";
       } else {
           fizzList = "Fun No Yum";
       }
