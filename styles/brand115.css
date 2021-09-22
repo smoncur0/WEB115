@@ -74,10 +74,7 @@ ul.mainmenu > li > a{
 
 	
 
-ul.submenu {
-	
-	display: none;
-}
+
 
 ul.submenu > li > a, ul.submenu > li > a:active{
 	
@@ -86,10 +83,7 @@ ul.submenu > li > a, ul.submenu > li > a:active{
 
 }
 
-a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
-display: block;
-	
-}
+
 footer > p > a{
    color:rgba(199, 22, 22, 0.63);
    background-color: beige;
