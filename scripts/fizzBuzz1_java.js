@@ -13,7 +13,7 @@ function formSubmit() {
   }
   
   function buzz(countLimit) {
-    for(let i = 1; i <= (countLimit); i++) {
+    for(let i = 1; i <= countLimit; i++) {
   
       //creates new element & stores in variable for loop
       var fizzList;
