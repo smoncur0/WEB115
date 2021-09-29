@@ -8,7 +8,7 @@ function formSubmit() {
   let lastName = document.getElementById('last_name').value;
   let middleInitial = document.getElementById('middle_initial').value;
         
-document.getElementById("greeting").textContent = "Welcome to Syd's Recipies, " + firstName + " " + middleInitial + ". " + lastName + "!";
+document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
 let count = prompt(`How high do you want to count, ${firstName}?`);
 buzz(count);
 }
