@@ -12,7 +12,7 @@ function formSubmit() {
      let firstDivisor = 3;
      let secondDivisor = 5;
      let count = 140;
-     buzz(firstDivisor, secondDivisor);
+     buzz(firstDivisor, secondDivisor, count);
   }
   function checkDivision(firstDivisor, secondDivisor) {
 
