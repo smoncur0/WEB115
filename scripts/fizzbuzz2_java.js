@@ -1,4 +1,4 @@
-//java script for fizzbuzz0 assignment 
+//java script for fizzbuzz2 assignment 
 //sydney m
 
 
@@ -7,24 +7,24 @@ function formSubmit() {
     let firstName = document.getElementById('first_name').value;
     let lastName = document.getElementById('last_name').value;
     let middleInitial = document.getElementById('middle_initial').value;  
-    let firstDivisor = 3;
-    let secondDivisor = 5;
-    let countLimit = 140;
+ 
      document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
-   
+     let firstDivisor = 3;
+     let secondDivisor = 5;
+     let count = 140;
      buzz(firstDivisor, secondDivisor);
   }
-  function checkDivision(value_1, value_2) {
+  function checkDivision(firstDivisor, secondDivisor) {
 
         
-        if (value_1 % value_2 === 0) {
+        if (firstDivisor % secondDivisor === 0) {
             return true;
 
         } else {
             return false;
     }   
   }
-  function buzz(firstDivisor, secondDivisor) {
+  function buzz(firstDivisor, secondDivisor, countLimit) {
     for(let i = 1; i <= countLimit; i++) {
   
       //creates new element & stores in variable for loop
