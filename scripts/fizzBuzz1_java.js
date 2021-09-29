@@ -8,7 +8,7 @@ function formSubmit() {
     let lastName = document.getElementById('last_name').value;
     let middleInitial = document.getElementById('middle_initial').value;
     let count = 140;    
-     document.getElementById("greeting").textContent = "Welcome to Syd's Recipies, " + firstName + " " + middleInitial + ". " + lastName + "!";
+     document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
     buzz(count);
   }
   
@@ -19,13 +19,13 @@ function formSubmit() {
       var fizzList;
       
       if (i % 15 === 0) {
-          fizzList = "YumNFun";
+          fizzList = "QuickNFun";
       } else if(i % 3 === 0) { 
         fizzList = "Fun";
       } else if ( i % 5 === 0) {
-          fizzList = "Yum";
+          fizzList = "Quick";
       } else {
-          fizzList = "Fun No Yum";
+          fizzList = "Quick No Fun";
       }
       
     
