@@ -7,9 +7,12 @@ html {
    font-size: 30px;
  
 }
+main {
+	margin: 40px;
+	
+}
 
  body { 
-	margin: 0;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	color: rgba(14, 53, 16, 0.856);
@@ -22,6 +25,13 @@ html {
 }
  h2 {
     text-align: center;
+    font-size: 25px;
+    color: rgba(19, 126, 99, 0.849);
+    
+}
+h3 {
+    text-align: center;
+    font-style: italic;
     font-size: 25px;
     color: rgba(19, 126, 99, 0.849);
     
@@ -86,7 +96,6 @@ ul.submenu > li > a{
 
 footer > p > a{
    color:rgba(199, 22, 22, 0.63);
-   background-color: beige;
    text-align: center;
 } 
 
