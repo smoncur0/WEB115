@@ -99,12 +99,12 @@ footer > p > a{
    text-align: center;
    text-decoration: none;
 } 
-footer > a{
+footer a{
    color:rgba(19, 126, 99, 0.849);
    text-align: center;
    text-decoration: none;
 } 
-footer > a: hover {
+footer a: hover {
    color:rgba(19, 126, 99, 0.849);
    text-align: center;
    background-color: rgba(9, 9, 56, 0.568);
