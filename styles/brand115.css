@@ -97,24 +97,13 @@ ul.submenu > li > a{
 
 }
 
-footer a: hover {
-   color:rgba(19, 126, 99, 0.849);
-   text-align: center;
-   background-color: rgba(9, 9, 56, 0.568);
-   text-decoration: none;
-
-} 
+footer > p > a:hover{
+   background-color: moccasin;
+}
 footer > p > a{
    color:rgba(19, 126, 99, 0.849);
    text-align: center;
    text-decoration: none;
 } 
-footer a{
-   color:rgba(19, 126, 99, 0.849);
-   text-align: center;
-   text-decoration: none;
-} 
-
-
 
 
