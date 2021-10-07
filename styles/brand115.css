@@ -42,13 +42,13 @@ h3 {
     
 }
 
-header > nav > ul > li >  a {
+main > nav > ul > li >  a {
    background-color: moccasin;
    color: rgba(199, 22, 22, 0.63);
 
 
 }
-header > nav > ul > li >  a:hover{
+main > nav > ul > li >  a:hover{
    background-color: rgba(160, 81, 45, 0.411);
 }
 p.one {
