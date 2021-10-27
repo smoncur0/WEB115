@@ -135,17 +135,20 @@ footer > p > a{
   
 }
 
-#buzz{
-  text-align: center;
+#buzz {
   margin: auto;
   width: 100%;
   padding: 20px;
   list-style-type: none;
+}
+
+#list1 {
+ text-align: center;
 
 }
 
 
-#submit{
+#submit {
   padding: 3px;
   background-color: rgb(4, 35, 39);
   color: aliceblue;
