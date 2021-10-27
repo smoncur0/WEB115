@@ -15,6 +15,10 @@ main {
 	margin: 40px;
 	
 }
+figcaption {
+	font-style: italic;
+	
+}
 
  body { 
 	font-size: 1.2em;
