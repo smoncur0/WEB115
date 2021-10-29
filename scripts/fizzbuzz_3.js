@@ -17,15 +17,15 @@ function formSubmit() {
   }
 function solve(firstvalue, secondvalue, thirdvalue)
 {
-  if(firstvalue % secondvalue === 0) 
+  if(value1 % value2 === 0) 
   {
       return true;
       
-  }else if(firstvalue % thirdvalue === 0)
-      return true;
+  }else if(value1 % value3 === 0)
+  {    return true;
     
   }else 
-     return false;
+  {   return false;
 }
   function buzz(value1, value2, value3)
 {
@@ -39,7 +39,8 @@ function solve(firstvalue, secondvalue, thirdvalue)
       } else if(i, value2, solve) { 
           fizzDivision3 = "Quick";
 
-      } else (i, value3, solve)  {
+      } else (i, value3, solve)  
+      {
           fizzDivision3 = "BANG!";
       }
       
