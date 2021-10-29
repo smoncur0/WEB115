@@ -15,7 +15,7 @@ function formSubmit() {
      let count = 140;
      buzz(divide1, divide2, divide3, count);
   }
-  function checkDivision(divide1, divide2) {
+  function solve_1(divide1, divide2) {
 
         
         if (divide1 % divide2 === 0) {
@@ -29,16 +29,16 @@ function formSubmit() {
     for(let i = 1; i <= count; i++) {
   
       //creates new element & stores in variable for loop
-      let fizzDivision;
+      let fizzDivision3;
       
-      if (i % divide1 === 0) {
-          fizzDivision = "Fun";
+      if ((divide1 % divide2) % i % divide1 === 0) {
+          fizzDivision3 = "Fun";
       
-      } else if(i % divide2 === 0) { 
-          fizzDivision = "Quick";
+      } else if((divide1 % divide2) % i % divide2 === 0) { 
+          fizzDivision3 = "Quick";
 
-      } else (i % divide3 === 0)  {
-          fizzDivision = "BANG!";
+      } else ((divide1 % divide2) % i % divide3 === 0)  {
+          fizzDivision3 = "BANG!";
       }
       
     
@@ -46,7 +46,7 @@ function formSubmit() {
     let element_1 = document.createElement('li');
     
     //text node variable and components
-    let text = document.createTextNode(i + ' ' + fizzDivision);
+    let text = document.createTextNode(i + ' ' + fizzDivision3);
     
     //text node and new element attach
     element_1.appendChild(text);
