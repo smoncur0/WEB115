@@ -28,19 +28,10 @@ function formSubmit() {
       }
       
     
-    //creates new element & stores in variable
     let element_1 = document.createElement('li');
-    
-    //text node variable and components
     let text = document.createTextNode(i + ' ' + fizzList);
-    
-    //text node and new element attach
     element_1.appendChild(text);
-    
-    //element's postition
     let pos_new = document.getElementsByTagName('ul')[0];
-    
-    //corrects position
     pos_new.appendChild(element_1);
     
   }
