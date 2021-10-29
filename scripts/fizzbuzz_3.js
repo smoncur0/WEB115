@@ -34,17 +34,20 @@ function solve(firstvalue, secondvalue, thirdvalue)
   
       let fizzSolve;
       
-      if (i, value1)solve
+      if ((i, value1)solve)
       {
           fizzSolve = "Fun";
       
-      } else if(i, value2)solve 
+      } else if((i, value2)solve)
       { 
           fizzSolve = "Quick";
 
-      } else (i, value3)solve  
+      } else if ((i, value3)solve) 
       {
           fizzSolve = "BANG!";
+      }else 
+      { 
+          fizzSolve = "No Fun";
       }
       
     
