@@ -26,18 +26,18 @@ function formSubmit() {
     }   
   }
   function buzz(divide1, divide2, divide3) {
-    for(let i = 1; i <= countLimit; i++) {
+    for(let i = 1; i <= count; i++) {
   
       //creates new element & stores in variable for loop
       let fizzDivision;
       
-      if ((i % divide1) % checkDivision === 0) {
+      if (i % divide1 === 0) {
           fizzDivision = "Fun";
       
-      } else if((i % divide2) % checkDivision === 0) { 
+      } else if(i % divide2 === 0) { 
           fizzDivision = "Quick";
 
-      } else ((i % divide3) % checkDivision === 0)  {
+      } else (i % divide3 === 0)  {
           fizzDivision = "BANG!";
       }
       
