@@ -17,18 +17,19 @@ function formSubmit() {
   }
 function solve(firstvalue, secondvalue, thirdvalue)
 {
-  if(value2 % value1 === 0) 
+  if(value2 % value1 === 0)
   {
       return true;
       
-  }else if(value1 % value3 === 0)
+  } else if(value1 % value3 === 0)
   {    return true;
     
   }else 
   {   return false;
 
+ }
 }
-    function buzz(value1, value2, value3)
+    function buzz(value1, value2, value3, count)
 {
     for(let i = 1; i <= count; i++) {
   
