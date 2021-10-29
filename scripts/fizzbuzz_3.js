@@ -17,13 +17,11 @@ function formSubmit() {
   }
 function solve(firstvalue, secondvalue, thirdvalue)
 {
-  if(value2 % value1 === 0)
+  if(value1 % value2 === 0)
   {
       return true;
       
-  } else if(value1 % value3 === 0)
-  {    return true;
-    
+
   }else 
   {   return false;
 
@@ -31,14 +29,17 @@ function solve(firstvalue, secondvalue, thirdvalue)
 }
     function buzz(value1, value2, value3, count)
 {
-    for(let i = 1; i <= count; i++) {
+    for(let i = 1; i <= count; i++) 
+    {
   
       let fizzSolve;
       
-      if (i, value1)solve {
+      if (i, value1)solve
+      {
           fizzSolve = "Fun";
       
-      } else if(i, value2)solve { 
+      } else if(i, value2)solve 
+      { 
           fizzSolve = "Quick";
 
       } else (i, value3)solve  
