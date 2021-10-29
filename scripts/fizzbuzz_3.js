@@ -17,7 +17,7 @@ function formSubmit() {
   }
 function solve(firstvalue, secondvalue, thirdvalue)
 {
-  if(value1 % value2 === 0) 
+  if(value2 % value1 === 0) 
   {
       return true;
       
@@ -26,7 +26,7 @@ function solve(firstvalue, secondvalue, thirdvalue)
     
   }else 
   {   return false;
-}
+
 }
     function buzz(value1, value2, value3)
 {
