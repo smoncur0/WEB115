@@ -34,7 +34,7 @@ function solve(firstvalue, secondvalue, thirdvalue)
   
       let fizzSolve;
       
-      if ((i, value1)solve {
+      if ((i, value1)solve) {
           fizzSolve = "Fun";
       
       } else if((i, value2)solve) { 
@@ -48,7 +48,7 @@ function solve(firstvalue, secondvalue, thirdvalue)
     
     let element_1 = document.createElement('li');
 
-    let text = document.createTextNode(i + ' ' + fizzsolve);
+    let text = document.createTextNode(i + ' ' + fizzSolve);
     
     
     element_1.appendChild(text);
