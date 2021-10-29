@@ -9,52 +9,52 @@ function formSubmit() {
     let middleInitial = document.getElementById('middle_initial').value;  
  
      document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
-     let divide1 = 3;
-     let divide2 = 5;
-     let divide3 = 7;
+     let value1 = 3;
+     let value2 = 5;
+     let value3 = 7;
      let count = 140;
-     buzz(divide1, divide2, divide3, count);
+     buzz(value1, value2, value3, count);
   }
-  function solve_1(divide1, divide2) {
-
-        
-        if (divide1 % divide2 === 0) {
-            return true;
-
-        } else {
-            return false;
-    }   
-  }
-  function buzz(divide1, divide2, divide3) {
+function solve(firstvalue, secondvalue, thirdvalue)
+{
+  if(firstvalue % secondvalue === 0) 
+  {
+      return true;
+      
+  }else if(firstvalue % thirdvalue === 0)
+      return true;
+    
+  }else 
+     return false;
+}
+  function buzz(value1, value2, value3)
+{
     for(let i = 1; i <= count; i++) {
   
-      //creates new element & stores in variable for loop
-      let fizzDivision3;
+      let fizzSolve;
       
-      if ((divide1 % divide2) % i % divide1 === 0) {
+      if (i, value1, solve) {
           fizzDivision3 = "Fun";
       
-      } else if((divide1 % divide2) % i % divide2 === 0) { 
+      } else if(i, value2, solve) { 
           fizzDivision3 = "Quick";
 
-      } else ((divide1 % divide2) % i % divide3 === 0)  {
+      } else (i, value3, solve)  {
           fizzDivision3 = "BANG!";
       }
       
     
-    //creates new element & stores in variable
     let element_1 = document.createElement('li');
+
+    let text = document.createTextNode(i + ' ' + fizzsolve);
     
-    //text node variable and components
-    let text = document.createTextNode(i + ' ' + fizzDivision3);
     
-    //text node and new element attach
     element_1.appendChild(text);
     
-    //element's postition
+
     let pos_new = document.getElementsByTagName('ul')[0];
     
-    //corrects position
+ 
     pos_new.appendChild(element_1);
     
   }
