@@ -35,14 +35,14 @@ function solve(firstvalue, secondvalue, thirdvalue)
       let fizzSolve;
       
       if (i, value1(solve)) {
-          fizzDivision3 = "Fun";
+          fizzSolve = "Fun";
       
       } else if(i, value2(solve)) { 
-          fizzDivision3 = "Quick";
+          fizzSolve = "Quick";
 
       } else (i, value3(solve))  
       {
-          fizzDivision3 = "BANG!";
+          fizzSolve = "BANG!";
       }
       
     
