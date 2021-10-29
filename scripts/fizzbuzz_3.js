@@ -15,7 +15,7 @@ function formSubmit() {
      let count = 140;
      buzz(value1, value2, value3, count);
   }
-function solve(firstvalue, secondvalue, thirdvalue)
+function solve(value1, value2)
 {
   if(value1 % value2 === 0)
   {
