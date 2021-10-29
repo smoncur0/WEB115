@@ -27,7 +27,8 @@ function solve(firstvalue, secondvalue, thirdvalue)
   }else 
   {   return false;
 }
-  function buzz(value1, value2, value3)
+}
+    function buzz(value1, value2, value3)
 {
     for(let i = 1; i <= count; i++) {
   
