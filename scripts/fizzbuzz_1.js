@@ -1,4 +1,4 @@
-//java script for fizzbuzz0 assignment 
+//java script for fizzbuzz1 assignment 
 //sydney m
 
 
@@ -14,9 +14,8 @@ function formSubmit() {
   
   function buzz(countLimit) {
     for(let i = 1; i <= countLimit; i++) {
-  
-      //creates new element & stores in variable for loop
-      var fizzList;
+
+      let fizzList;
       
       if (i % 15 === 0) {
           fizzList = "QuickNFun";
@@ -30,16 +29,16 @@ function formSubmit() {
       
     
     //creates new element & stores in variable
-    var element_1 = document.createElement('li');
+    let element_1 = document.createElement('li');
     
     //text node variable and components
-    var text = document.createTextNode(i + ' ' + fizzList);
+    let text = document.createTextNode(i + ' ' + fizzList);
     
     //text node and new element attach
     element_1.appendChild(text);
     
     //element's postition
-    var pos_new = document.getElementsByTagName('ul')[0];
+    let pos_new = document.getElementsByTagName('ul')[0];
     
     //corrects position
     pos_new.appendChild(element_1);
