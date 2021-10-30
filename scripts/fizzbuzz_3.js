@@ -30,7 +30,8 @@ function buzz(div1, div2, div3, limit) {
   for(let i = 1; i <= limit; i++) {
 
     //creates new element & stores in variable for loop
-    var fizzDivision;
+    let fizzDivision;
+    let option1 = div1 * div2;
     
     if ((div1 * div3) % i === 0) {
         fizzDivision = "Fun";
