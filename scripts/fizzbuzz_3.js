@@ -31,13 +31,13 @@ function buzz(div1, div2, div3) {
     //creates new element & stores in variable for loop
     var fizzDivision;
     
-    if (i, div1 * (checkDivision)) {
+    if ((i, div1) * checkDivision) {
         fizzDivision = "Fun";
     
-    } else if(i, div2 * (checkDivision)) { 
+    } else if((i, div2) * checkDivision) { 
         fizzDivision = "Quick";
 
-    } else if(i, div3 * (checkDivision)) {
+    } else if((i, div3) * checkDivision) {
         fizzDivision = "Quick and Fun!";
     } else { 
         fizzDivision = "No Fun!";
