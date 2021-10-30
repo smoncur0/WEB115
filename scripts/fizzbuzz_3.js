@@ -16,7 +16,7 @@ function formSubmit() {
 
    buzz(div1, div2, div3, count);
 }
-function checkDivision(div1, div2) {
+function checkDivison(div1, div2) {
 
       
       if (div1 % div2 === 0) {
@@ -30,19 +30,19 @@ function buzz(div1, div2, div3, count) {
   for(let i = 1; i <= count; i++) {
 
     //creates new element & stores in variable for loop
-    let fizzDivision;
+    let fizzDivison;
 
     
     if (i % (div1 * div2 * div3) === 0 {
-        fizzDivision = "Fun";
+        fizzDivison = "Fun";
     
     } else if(i % div2 === 0 ) { 
         fizzDivison = "Quick";
 
     } else if(i % (div1 * div2) === 0) {
-        fizzDivision = "Quick and Fun!";
+        fizzDivison = "Quick and Fun!";
     } else { 
-        fizzDivision = "No Fun!";
+        fizzDivison = "No Fun!";
 
     }
     
@@ -51,7 +51,7 @@ function buzz(div1, div2, div3, count) {
   var element_1 = document.createElement('li');
   
   //text node variable and components
-  var text = document.createTextNode(i + ' ' + fizzDivision);
+  var text = document.createTextNode(i + ' ' + fizzDivison);
   
   //text node and new element attach
   element_1.appendChild(text);
