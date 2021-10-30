@@ -11,7 +11,7 @@ function formSubmit() {
    document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
    let div1 = 3;
    let div2 = 5;
-   let div3 = 7;
+   let div3 = 7 * 2;
    let count = 140;
 
    buzz(div1, div2, div3, count);
@@ -36,7 +36,7 @@ function buzz(div1, div2, div3, limit) {
     if ((div1 * div3) % i === 0) {
         fizzDivision = "Fun";
     
-    } else if((option1 * div3) % i === 0 ) { 
+    } else if((div2 * div3) % i === 0 ) { 
         fizzDivison = "Quick";
 
     } else if((div3 === 0) {
