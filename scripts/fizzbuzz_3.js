@@ -13,6 +13,7 @@ function formSubmit() {
    let div2 = 5;
    let div3 = 7;
    let count = 140;
+  let option1 = div1 * div2;
    buzz(div1, div2, div3, count);
 }
 function checkDivision(div1, div2) {
@@ -26,7 +27,7 @@ function checkDivision(div1, div2) {
   }   
 }
 function buzz(div1, div2, div3, limit, option1) {
-  for(let i = 1; let option1 = div1 * div2; i <= limit; i++) {
+  for(let i = 1; i <= limit; i++) {
 
     //creates new element & stores in variable for loop
     var fizzDivision;
