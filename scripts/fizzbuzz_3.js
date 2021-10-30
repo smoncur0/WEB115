@@ -15,10 +15,10 @@ function formSubmit() {
    let count = 140;
    buzz(div1, div2, div3, checkDivision, count);
 }
-function checkDivision(div1, div2) {
+function checkDivision(div_1, div_2) {
 
       
-      if (div1 % div2 === 0) {
+      if (div_1 % div_2 === 0) {
           return true;
 
       } else {
