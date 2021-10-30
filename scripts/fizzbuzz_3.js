@@ -13,7 +13,7 @@ function formSubmit() {
    let div2 = 5;
    let div3 = 7;
    let count = 140;
-   buzz(div1, div2, div3);
+   buzz(div1, div2, div3, count);
 }
 function checkDivision(div_1, div_2) {
 
@@ -25,7 +25,7 @@ function checkDivision(div_1, div_2) {
           return false;
   }   
 }
-function buzz(div1, div2, div3) {
+function buzz(div1, div2, div3, count) {
   for(let i = 1; i <= count; i++) {
 
     //creates new element & stores in variable for loop
