@@ -26,8 +26,8 @@ function checkDivison(div1, div2) {
           return false;
   }   
 }
-function buzz(div1, div2, div3, count) {
-  for(let i = 1; i <= count; i++) {
+function buzz(div1, div2, div3, limit) {
+  for(let i = 1; i <= limit; i++) {
 
     //creates new element & stores in variable for loop
     let fizzDivison;
