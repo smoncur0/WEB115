@@ -15,29 +15,29 @@ function formSubmit() {
    let count = 140;
    buzz(div1, div2, div3, count);
 }
-function checkDivision(div_1, div_2) {
+function checkDivision(div1, div2) {
 
       
-      if (div_1 % div_2 === 0) {
+      if (div1 % div2 === 0) {
           return true;
 
       } else {
           return false;
   }   
 }
-function buzz(div1, div2, div3, count) {
-  for(let i = 1; i <= count; i++) {
+function buzz(div1, div2, div3, limit) {
+  for(let i = 1; i <= limit; i++) {
 
     //creates new element & stores in variable for loop
     var fizzDivision;
     
-    if (i, div1) {
+    if ((div1 * div2 * div3) % i === 0) {
         fizzDivision = "Fun";
     
-    } else if(i, div2) { 
-        fizzDivision = "Quick";
+    } else if(i % (checkDivision * div1) === 0 ) { 
+        fizzDivison = "Quick";
 
-    } else if(i, div3) {
+    } else if(i % (checkDivision * div3 === 0) {
         fizzDivision = "Quick and Fun!";
     } else { 
         fizzDivision = "No Fun!";
