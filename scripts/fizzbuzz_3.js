@@ -4,66 +4,62 @@
 
 
 function formSubmit() {
-    let firstName = document.getElementById('first_name').value;
-    let lastName = document.getElementById('last_name').value;
-    let middleInitial = document.getElementById('middle_initial').value;  
- 
-     document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
-     let value1 = 3;
-     let value2 = 5;
-     let value3 = 7;
-     let count = 140;
-     buzz(value1, value2, value3, count);
-  }
-function solve(value1, value2)
-{
-  if(value1 % value2 === 0)
-  {
-      return true;
-      
+  let firstName = document.getElementById('first_name').value;
+  let lastName = document.getElementById('last_name').value;
+  let middleInitial = document.getElementById('middle_initial').value;  
 
-  }else 
-  {   return false;
-
- }
+   document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
+   let div1 = 3;
+   let div2 = 5;
+   let div3 = 7;
+   let count = 140;
+   buzz(div1, div2, div3, checkDivision, count);
 }
-    function buzz(value1, value2, value3, count)
-{
-    for(let i = 1; i <= count; i++) 
-    {
+function checkDivision(div1, div2) {
+
+      
+      if (div1 % div2 === 0) {
+          return true;
+
+      } else {
+          return false;
+  }   
+}
+function buzz(div1, div2, div3, checkDivision, count) {
+  for(let i = 1; i <= count; i++) {
+
+    //creates new element & stores in variable for loop
+    var fizzDivision;
+    
+    if (i, div1 * (checkDivision)) {
+        fizzDivision = "Fun";
+    
+    } else if(i, div2 * (checkDivision)) { 
+        fizzDivision = "Quick";
+
+    } else if(i, div3 * (checkDivision)) {
+        fizzDivision = "Quick and Fun!";
+    } else { 
+        fizzDivision = "No Fun!";
+
+    }
+    
   
-      let fizzSolve;
-      
-      if ((i, value1)solve)
-      {
-          fizzSolve = "Fun";
-      
-      } else if((i, value2)solve)
-      { 
-          fizzSolve = "Quick";
-
-      } else if ((i, value3)solve) 
-      {
-          fizzSolve = "BANG!";
-      }else 
-      { 
-          fizzSolve = "No Fun";
-      }
-      
-    
-    let element_1 = document.createElement('li');
-
-    let text = document.createTextNode(i + ' ' + fizzSolve);
-    
-    
-    element_1.appendChild(text);
-    
-
-    let pos_new = document.getElementsByTagName('ul')[0];
-    
- 
-    pos_new.appendChild(element_1);
-    
-  }
-    
+  //creates new element & stores in variable
+  var element_1 = document.createElement('li');
+  
+  //text node variable and components
+  var text = document.createTextNode(i + ' ' + fizzDivision);
+  
+  //text node and new element attach
+  element_1.appendChild(text);
+  
+  //element's postition
+  var pos_new = document.getElementsByTagName('ul')[0];
+  
+  //changes position
+  pos_new.appendChild(element_1);
+  
+}
+  
 } 
