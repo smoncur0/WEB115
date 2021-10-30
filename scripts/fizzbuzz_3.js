@@ -12,6 +12,7 @@ function formSubmit() {
    let div1 = 3;
    let div2 = 5;
    let div3 = 7;
+   let option1 = div1 * div2;
    let count = 140;
    buzz(div1, div2, div3, count);
 }
@@ -31,13 +32,13 @@ function buzz(div1, div2, div3, limit) {
     //creates new element & stores in variable for loop
     var fizzDivision;
     
-    if ((div1 * div2 * div3) % i === 0) {
+    if ((div1 * div3) % i === 0) {
         fizzDivision = "Fun";
     
-    } else if((div3 + div2 + div1) % i === 0 ) { 
+    } else if((option1) % i === 0 ) { 
         fizzDivison = "Quick";
 
-    } else if(i % (checkDivision * div3 === 0) {
+    } else if((div3 === 0) {
         fizzDivision = "Quick and Fun!";
     } else { 
         fizzDivision = "No Fun!";
