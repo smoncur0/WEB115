@@ -4,11 +4,12 @@
 
 
 function formSubmit() {
-    let firstName = document.getElementById('first_name').value;
-    let lastName = document.getElementById('last_name').value;
-    let middleInitial = document.getElementById('middle_initial').value;
+  let first_Name = document.getElementById('first_name').value;
+  let last_Name = document.getElementById('last_name').value;
+  let middle_initial = document.getElementById('middle_initial').value;  
+
     let count = 140;    
-     document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
+     document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_Name + " " + middle_initial + ". " + last_Name + "!";
     buzz(count);
   }
   
