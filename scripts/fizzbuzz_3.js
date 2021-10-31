@@ -29,21 +29,21 @@ function checkDivison(div1, div2) {
 function buzz(div1, div2, div3, limit) {
   for(let i = 1; i <= limit; i++) {
     
-//new element for loop
+//new variable for loop
     let fizzDivison;
 
     //conditions for loop
     if (i % div1 === 0){
-        fizzDivison = "Fun";
+        fizzDivison = "- Fun";
     
     } else if(i % div2 === 0) { 
-        fizzDivison = "Quick";
+        fizzDivison = "- Quick";
       
     } else if(i % (div1 * div2* div3) === 0)  { 
-      fizzDivison = "Fun and Quick";
+      fizzDivison = "- Fun and Quick";
 
     } else { 
-        fizzDivison = "Super Quick and Fun!";
+        fizzDivison = "- Super Quick and Fun!";
 
     }
     
