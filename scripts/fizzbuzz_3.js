@@ -28,38 +28,38 @@ function checkDivison(div1, div2) {
 }
 function buzz(div1, div2, div3, limit) {
   for(let i = 1; i <= limit; i++) {
-
-    //creates new element & stores in variable for loop
+    
+//new element for loop
     let fizzDivison;
 
-    
-    if ((div1 * div2 * div3) % i === 0){
+    //conditions for loop
+    if (i % div1 === 0){
         fizzDivison = "Fun";
     
     } else if(i % div2 === 0) { 
         fizzDivison = "Quick";
+      
+    } else if(i % div3 === 0) { 
+      fizzDivison = "Quick";
 
-    } else if((div1 * div2) % i === 0) {
+
+    } else (i % (div1 * div2* div3) === 0) {
         fizzDivison = "Quick and Fun!";
-    } else { 
-        fizzDivison = "No Fun!";
+      
+   // } else { 
+        //fizzDivison = "Quick and Fun!";
 
     }
     
-  
-  //creates new element & stores in variable
+
   var element_1 = document.createElement('li');
-  
-  //text node variable and components
+
   var text = document.createTextNode(i + ' ' + fizzDivison);
-  
-  //text node and new element attach
+
   element_1.appendChild(text);
-  
-  //element's postition
+
   var pos_new = document.getElementsByTagName('ul')[0];
-  
-  //changes position
+
   pos_new.appendChild(element_1);
   
 }
