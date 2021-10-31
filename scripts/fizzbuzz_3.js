@@ -39,13 +39,9 @@ function buzz(div1, div2, div3, limit) {
     } else if(i % div2 === 0) { 
         fizzDivison = "Quick";
       
-    } else if(i % div3 === 0) { 
+    } else if(i % (div1 * div2* div3) === 0)  { 
       fizzDivison = "Super Quick";
 
-
-    } else if (i % (div1 * div2* div3) === 0) {
-        fizzDivison = "Quick and Fun!";
-      
     } else { 
         fizzDivison = "Not so Fun!";
 
