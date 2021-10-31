@@ -5,11 +5,12 @@
 
 function formSubmit()
 {
-  let firstName = document.getElementById('first_name').value;
-  let lastName = document.getElementById('last_name').value;
-  let middleInitial = document.getElementById('middle_initial').value;
-        
-  document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + firstName + " " + middleInitial + ". " + lastName + "!";
+ function formSubmit() {
+  let first_Name = document.getElementById('first_name').value;
+  let last_Name = document.getElementById('last_name').value;
+  let middle_initial = document.getElementById('middle_initial').value;  
+
+   document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_Name + " " + middle_initial + ". " + last_Name + "!";
   let count = prompt(`How high do you want to count, ${firstName}?`);
   buzz(count);
 }
