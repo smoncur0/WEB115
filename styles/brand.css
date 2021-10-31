@@ -55,13 +55,13 @@ h4 {
 
 
 
-main > nav > ul > li >  a {
+nav > ul > li >  a {
    background-color: moccasin;
    color: rgba(199, 22, 22, 0.63);
 
 
 }
-main > nav > ul > li >  a:hover{
+nav > ul > li >  a:hover{
    background-color: rgba(160, 81, 45, 0.411);
 }
 .one {
