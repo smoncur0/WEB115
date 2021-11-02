@@ -54,7 +54,7 @@ function formSubmit() {
                 fizzDivison = ( "- Super" );
             }
             else{
-                fizzDivison = ("- ",i);
+                fizzDivison = ("- "+i);
             }
   var element_1 = document.createElement('li');
   var text = document.createTextNode(i + ' ' + fizzDivison);
