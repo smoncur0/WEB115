@@ -26,35 +26,35 @@ function formSubmit() {
         
             if(((i % div1) ==0) && ((i % div2) ==0) && ((i % div3) ==0))
             {    
-                fizzDivison = ("Ouick Super Fun!" );
+                fizzDivison = ("- Quick Super Fun!" );
             }
             else if (((i % div1) ==0) && ((i % div2) ==0))
             {
-                fizzDivison = ( "QuickFun" );
+                fizzDivison = ( "- QuickFun" );
             }
             
             else if (((i % div1) == 0) && ((i % div3) == 0))
             {
-                fizzDivison = ( "Super Quick" );
+                fizzDivison = ( "- Super Quick" );
             }
             else if (((i % div2) == 0) && ((i % div3) == 0))
             {
-                fizzDivison = ( "Super Fun" );
+                fizzDivison = ( "- Super Fun" );
             }
             else if (i % div1 == 0)
             {
-                fizzDivison = ( "Quick" );
+                fizzDivison = ( "- Quick" );
             }
             else if (i % div2 == 0)
             {
-                fizzDivison = ( "Fun" );
+                fizzDivison = ( "- Fun" );
             }
             else if (i % div3 == 0)
             {
-                fizzDivison = ( "Super" );
+                fizzDivison = ( "- Super" );
             }
             else{
-                fizzDivison = (i);
+                fizzDivison = ("- ",i);
             }
   var element_1 = document.createElement('li');
   var text = document.createTextNode(i + ' ' + fizzDivison);
