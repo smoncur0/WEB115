@@ -17,7 +17,7 @@ function formData() {
   
     for (let i = 0; i < introData.length; i++) {
         let element_1 = document.createElement('li');
-        let text = document.createTextNode(i + ' ' + introData);
+        let text = document.createTextNode(introData[i]);
         element_1.appendChild(text);
         let pos_new = document.getElementsByTagName('ul')[0];
         pos_new.appendChild(element_1);
