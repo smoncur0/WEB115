@@ -1,5 +1,5 @@
 function formData() {
-    document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_name + " " + last_name + "!";
+   
     let first_name = document.getElementById('first_name').value;
     let last_name = document.getElementById('last_name').value;
     let personal_back = "Personal Background: " + document.getElementById('personal_back').value;
@@ -7,10 +7,8 @@ function formData() {
     let computer_platform = "Primary Computer Platform: " + document.getElementById('computer_platform').value;
     let course_list = "Courses I'm Taking, and Why: " + document.getElementById('course_list').value;
     let funny_item = "Funny/Interesting item about yourself: " + document.getElementById('funny_item').value;
-    
-    
+    document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_name + " " + last_name + "!";
     introData = [personal_back, academic_back, computer_platform, course_list, funny_item];
-  
     display(introData);
   }
   
