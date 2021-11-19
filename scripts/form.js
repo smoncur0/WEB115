@@ -15,9 +15,9 @@ function formData() {
   
   function display(inputData) {
   
-    for (let i = 0; i < introData.length; i++) {
+    for (let i = 0; i < inputData.length; i++) {
         let element_1 = document.createElement('li');
-        let text = document.createTextNode(i + ' ' + introData);
+        let text = document.createTextNode(i + ' ' + inputData);
         element_1.appendChild(text);
         let pos_new = document.getElementsByTagName('ul')[0];
         pos_new.appendChild(element_1);
