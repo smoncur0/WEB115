@@ -15,7 +15,7 @@ function formData() {
   
   function display(introData) {
   
-    for (let i = 0; i < inputData.length; i++) {
+    for (let i = 0; i < introData.length; i++) {
         let element_1 = document.createElement('li');
         let text = document.createTextNode(i + ' ' + introData);
         element_1.appendChild(text);
