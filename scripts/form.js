@@ -9,7 +9,7 @@ function formData() {
     document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_name + " " + last_name + "!";
     
     
-    introData(personal_back, academic_back, computer_platform, course_list, funny_item);
+    introData = [personal_back, academic_back, computer_platform, course_list, funny_item];
   
     display(introData);
   }
