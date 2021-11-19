@@ -78,3 +78,13 @@ footer > p > a:hover{
     text-decoration: none;
  } 
  
+ #valid{
+    color:rgba(2, 15, 12, 0.849);
+    text-align: center;
+    text-decoration: none;
+ } 
+#valid:hover{
+    background-color: rgba(231, 82, 13, 0.774);
+
+ }
+ 
