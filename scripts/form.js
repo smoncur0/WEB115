@@ -8,16 +8,16 @@ function formData() {
     let course_list = "Courses I'm Taking, and Why: " + document.getElementById('course_list').value;
     let funny_item = "Funny/Interesting item about yourself: " + document.getElementById('funny_item').value;
     document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_name + " " + last_name + "!";
-    introData = [personal_back, academic_back, computer_platform, course_list, funny_item];
+    let introData = [personal_back, academic_back, computer_platform, course_list, funny_item];
     display(introData);
   }
   
   
-  function display(inputData) {
+  function display(introData) {
   
     for (let i = 0; i < inputData.length; i++) {
         let element_1 = document.createElement('li');
-        let text = document.createTextNode(i + ' ' + inputData);
+        let text = document.createTextNode(i + ' ' + introData);
         element_1.appendChild(text);
         let pos_new = document.getElementsByTagName('ul')[0];
         pos_new.appendChild(element_1);
