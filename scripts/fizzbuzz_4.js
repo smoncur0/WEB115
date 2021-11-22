@@ -31,20 +31,20 @@ function formSubmit() {
         
             if(((i % div1) == 0) && ((i % div2) == 0) && ((i % div3) == 0))
             {    
-                fizzDivison = (option_1, option_3, option_2);
+                fizzDivison = (option_1 + option_3 + option_2);
             }
             else if (((i % div1) ==0) && ((i % div2) ==0))
             {
-                fizzDivison = (option_1, option_2);
+                fizzDivison = (option_1 + option_2);
             }
             
             else if (((i % div1) == 0) && ((i % div3) == 0))
             {
-                fizzDivison = (option_3, option_1);
+                fizzDivison = (option_3 + option_1);
             }
             else if (((i % div2) == 0) && ((i % div3) == 0))
             {
-                fizzDivison = (option_3, option_2);
+                fizzDivison = (option_3 + option_2);
             }
             else if (i % div1 == 0)
             {
