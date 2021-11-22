@@ -13,7 +13,7 @@ function formSubmit() {
      document.getElementById("greeting").textContent = "Welcome to Syd's Shoe Styles, " + first_name + " " + middle_initial + ". " + last_name + "!";
 
  
-   buzz(div1, div2, div3, countLimit);
+   buzz(div1, div2, div3, option_1, option_2, option_3,countLimit);
    function checkDivision(div1, div2) {
 
       
