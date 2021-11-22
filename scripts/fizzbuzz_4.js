@@ -14,6 +14,7 @@ function formSubmit() {
 
  
    buzz(div1, div2, div3, option_1, option_2, option_3,countLimit);
+}
    function checkDivision(div1, div2) {
 
       
@@ -22,7 +23,7 @@ function formSubmit() {
 
     } else {
         return false;
-}   
+  }   
 
 }
     function buzz(div1, div2, div3,option_1, option_2, option_3, countLimit) {
@@ -68,4 +69,4 @@ function formSubmit() {
   pos_new.appendChild(element_1);
     }
  }
-}
+
