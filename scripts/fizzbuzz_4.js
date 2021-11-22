@@ -25,7 +25,7 @@ function formSubmit() {
 }   
 
 }
-    function buzz(div1, div2, div3,countLimit) {
+    function buzz(div1, div2, div3,option_1, option_2, option_3, countLimit) {
         for(let i = 1; i <= countLimit; i++) {
             var fizzDivison;
         
