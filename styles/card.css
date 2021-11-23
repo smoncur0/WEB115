@@ -2,8 +2,8 @@
 
 html {
    font-size: 100%;
-   font-family: Calibri;
-   background-color:  rgba(33, 49, 48, 0.438);
+   font-family: Trebuchet MS;
+   background-color:  rgba(158, 44, 133, 0.658);
    font-size: 40px; 
 }
 
@@ -19,7 +19,7 @@ main {
  body { 
 	
 	color:  rgba(235, 230, 221, 0.719);
-        text-align: center;      
+    text-align: center;      
 
 }
 
@@ -30,10 +30,23 @@ main {
 	
 }
 
+.card {  
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid rgba(88, 39, 72, 0.774); 
+    background-color:  rgba(122, 100, 131, 0.719);
+    -moz-box-shadow: 3px 3px 8px #222;  
+    -webkit-box-shadow: 3px 3px 8px #222;  
+    box-shadow: 3px 3px 8px #222;  
+    width: 800px;
+    height: 500px;
+    text-align: center;
+ }  
 h2 {
     text-align: center;
     font-size: 28px;
-    color: rgba(18, 121, 95, 0.966);
+    color: rgba(173, 7, 76, 0.966);
     
 }
 h3 {
